@@ -9,6 +9,8 @@ import db
 
 load_dotenv()
 
+TG_API_KEY="7649948132:AAHxjF3erARrPrxEudg1I7jzTCDwZt9Y2uw"
+
 API_KEY = os.getenv("TG_API_KEY")
 bot = telebot.TeleBot(API_KEY)
 libgen = LibgenSearch()
